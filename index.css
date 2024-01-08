@@ -67,3 +67,37 @@
     font-weight: 700;
 
 }
+
+.partySection {
+    background-image: url('./resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.partyParant {
+    padding-left: 126px;
+}
+
+.partyTittle {
+    font-size: 64px;
+    font-weight: 900;
+
+}
+
+.partyDescription {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.partyBtn {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
