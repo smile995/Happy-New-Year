@@ -121,6 +121,7 @@
     justify-content: center;
     background-color: #ff4d001a;
     margin-top: 20px;
+    padding: 50px;
 }
 
 .joinBtn {
@@ -130,6 +131,9 @@
     font-weight: 700;
     background-color: #F00;
     padding: 16px 32px;
+    border-radius: 8px;
+    border-style: none;
+
 
     /* align-items: center;
     gap: 10px; */
@@ -137,7 +141,37 @@
 
 .commingParant {
     display: flex;
-    justify-content: space-between;
-    gap: 30px ;
+    justify-content: space-evenly;
+    gap: 30px;
     margin-top: 40px;
+    align-items: center;
+}
+
+#commingImg {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 15px;
+    height: 360px;
+}
+
+.bestOffer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.commingSoon {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.shadowText {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    
 }
