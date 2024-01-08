@@ -1,3 +1,33 @@
-.banner-text{
-color: aqua;
+* {
+    font-family: Merriweather;
+}
+
+.banner-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+.banner-subTittle {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+ 
+}
+
+#bannar-parant {
+    width: 1320px;
+    height: 600px;
+    background-image: url('./resources/Banner\ Image.png');
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+   
+justify-content: center;
+align-items: center;
+
 }
