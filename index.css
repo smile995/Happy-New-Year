@@ -101,3 +101,43 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.redText {
+    color: #F00;
+}
+
+.hotelBooking {
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.hotelParant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff4d001a;
+    margin-top: 20px;
+}
+
+.joinBtn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #F00;
+    padding: 16px 32px;
+
+    /* align-items: center;
+    gap: 10px; */
+}
+
+.commingParant {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px ;
+    margin-top: 40px;
+}
